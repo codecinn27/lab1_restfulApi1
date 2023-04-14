@@ -1,0 +1,29 @@
+GET http://localhost:3000/
+
+###
+POST http://localhost:3000/register2
+Content-Type: application/json
+
+{
+    "username" : "Chong Jia Le",
+    "password" : "abc123",
+    "email" : "lebronjames"
+}
+
+###
+POST http://localhost:3000/login2
+Content-Type: application/json
+
+{
+    "username" : "Chong Jia Le",
+    "password" : "abc123"
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Hee",
+    "password": "1UTeM@PPPK"
+}
